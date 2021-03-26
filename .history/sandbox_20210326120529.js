@@ -138,86 +138,26 @@
 
 // break and continue 
 
-// const scores = [50, 25, 0, 30, 100, 20, 10];
+const scores = [50, 25, 0, 30, 100, 20, 10];
 
-// for (let i = 0; i < scores.length; i++) {
+for (let i = 0; i < scores.length; i++) {
 
-//     if (scores[i] === 0) {
-//         continue;
-//     }
+    if (scores[i] === 0) {
+        continue;
+    }
 
-//     console.log('your score:', scores[i]);
+    console.log('your score:', scores[i]);
 
-//     if (scores[i] === 100) {
-//         console.log('congrats, you got the top score!');
-//         break;
-//     }
+    if (scores[i] === 100) {
+        console.log('congrats, you got the top score!');
+        break;
+    }
 
-// }
+}
 
-
-//switch statemnts 
-
-// const grade = 'D';
-
-// switch (grade) {
-//     case 'A':
-//         console.log('You got an A!');
-//         break;
-//     case 'B':
-//         console.log('You got an B!');
-//         break;
-//     case 'C':
-//         console.log('You got an C!');
-//         break;
-//     case 'D':
-//         console.log('You got an D!');
-//         break;
-//     case 'E':
-//         console.log('You got an E!');
-//         break;
-//     default:
-//         console.log('not a valid grade');
-// }
-
-
-//usingn if statements 
-// if (grade === 'A') {
-// } else if (gradce === 'B') {
-
-// } else if (gradce === 'C') {
-
-// } else if (gradce === 'D') {
-
-// } else if (gradce === 'E') {
-
-// } else {
-
-// }
 
 // const goals = [60, 763, 762, 81, 14, 8, 37,];
 
 // for (let i = 0; i < goals.length; i++) {
 //     console.log("that's your score:", goals[i])
 // }
-
-// variables & block scope 
-
-const age = 30;
-
-if (true) {
-    const age = 40;
-    // you can't excess name outside of this roadblock!
-    const name = 'shaun';
-    console.log('inside 1st code block: ', age, name);
-
-    if (true) {
-        const age = 50;
-        console.log('inside 2nd code block:', age);
-        var test = 'hello';
-    }
-}
-
-console.log('outside code block: ', age, name);
-
-// you are allowed to redefine the variable in the roadblock!

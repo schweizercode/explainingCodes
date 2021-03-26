@@ -158,27 +158,27 @@
 
 //switch statemnts 
 
-// const grade = 'D';
+const grade = 'E';
 
-// switch (grade) {
-//     case 'A':
-//         console.log('You got an A!');
-//         break;
-//     case 'B':
-//         console.log('You got an B!');
-//         break;
-//     case 'C':
-//         console.log('You got an C!');
-//         break;
-//     case 'D':
-//         console.log('You got an D!');
-//         break;
-//     case 'E':
-//         console.log('You got an E!');
-//         break;
-//     default:
-//         console.log('not a valid grade');
-// }
+switch (grade) {
+    case 'A':
+        console.log('You got an A!');
+        break;
+    case 'B':
+        console.log('You got an B!');
+        break;
+    case 'C':
+        console.log('You got an C!');
+        break;
+    case 'D':
+        console.log('You got an D!');
+        break;
+    case 'E':
+        console.log('You got an E!');
+        break;
+    default:
+        console.log('not a valid grade');
+}
 
 
 //usingn if statements 
@@ -200,24 +200,3 @@
 // for (let i = 0; i < goals.length; i++) {
 //     console.log("that's your score:", goals[i])
 // }
-
-// variables & block scope 
-
-const age = 30;
-
-if (true) {
-    const age = 40;
-    // you can't excess name outside of this roadblock!
-    const name = 'shaun';
-    console.log('inside 1st code block: ', age, name);
-
-    if (true) {
-        const age = 50;
-        console.log('inside 2nd code block:', age);
-        var test = 'hello';
-    }
-}
-
-console.log('outside code block: ', age, name);
-
-// you are allowed to redefine the variable in the roadblock!

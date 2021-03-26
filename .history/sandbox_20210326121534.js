@@ -195,29 +195,8 @@
 
 // }
 
-// const goals = [60, 763, 762, 81, 14, 8, 37,];
+const goals = [60, 763, 762, 81, 14, 8, 37,];
 
-// for (let i = 0; i < goals.length; i++) {
-//     console.log("that's your score:", goals[i])
-// }
-
-// variables & block scope 
-
-const age = 30;
-
-if (true) {
-    const age = 40;
-    // you can't excess name outside of this roadblock!
-    const name = 'shaun';
-    console.log('inside 1st code block: ', age, name);
-
-    if (true) {
-        const age = 50;
-        console.log('inside 2nd code block:', age);
-        var test = 'hello';
-    }
+for (let i = 0; i < goals.length; i++) {
+    console.log("that's your score:", goals[i])
 }
-
-console.log('outside code block: ', age, name);
-
-// you are allowed to redefine the variable in the roadblock!
