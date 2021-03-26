@@ -126,34 +126,13 @@
 
 //logical NOT (!)
 
-// let user = false;
+let user = false;
 
-// if (!user) {
-//     console.log('you must be logged in to continue');
-// }
+if (!user) {
 
-// console.log(!true);
-// console.log(!false);
-
-
-// break and continue 
-
-const scores = [50, 25, 0, 30, 100, 20, 10];
-
-for (let i = 0; i < scores.length; i++) {
-
-    console.log('your score:', scores[i]);
-
-    if (scores[i] === 100) {
-        console.log('congrats, you got the top score!');
-        break;
-    }
+    console.log('you must be logged in to continue')
 
 }
 
-
-// const goals = [60, 763, 762, 81, 14, 8, 37,];
-
-// for (let i = 0; i < goals.length; i++) {
-//     console.log("that's your score:", goals[i])
-// }
+console.log(!true);
+console.log(!false);

@@ -148,7 +148,6 @@ for (let i = 0; i < scores.length; i++) {
         console.log('congrats, you got the top score!');
         break;
     }
-
 }
 
 

@@ -143,17 +143,11 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 for (let i = 0; i < scores.length; i++) {
 
     console.log('your score:', scores[i]);
-
-    if (scores[i] === 100) {
-        console.log('congrats, you got the top score!');
-        break;
-    }
-
 }
 
 
-// const goals = [60, 763, 762, 81, 14, 8, 37,];
+const goals = [60, 763, 762, 81, 14, 8, 37,];
 
-// for (let i = 0; i < goals.length; i++) {
-//     console.log("that's your score:", goals[i])
-// }
+for (let i = 0; i < goals.length; i++) {
+    console.log("that's your score:", goals[i])
+}

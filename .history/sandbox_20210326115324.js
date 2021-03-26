@@ -111,49 +111,14 @@
 
 // logical operators - OR || and AND &&
 
-// const password = 'p@ss12';
+const password = 'p@sswords1234';
 
-// if (password.length >= 12 && password.includes('@')) {
-//     console.log(' that password is mighty strong!');
+if (password.length >= 12 && password.includes('@')) {
+    console.log(' that password is mighty strong!');
 
-// } else if (password.length >= 8 || password.includes('@') && password.length >= 5) {
-//     console.log('that password is strong enough!');
+} else if (password.length >= 8 || password.includes('@')) {
+    console.log('that password is strong enough!');
 
-// } else {
-//     console.log('password is not long enough');
-// }
-
-
-//logical NOT (!)
-
-// let user = false;
-
-// if (!user) {
-//     console.log('you must be logged in to continue');
-// }
-
-// console.log(!true);
-// console.log(!false);
-
-
-// break and continue 
-
-const scores = [50, 25, 0, 30, 100, 20, 10];
-
-for (let i = 0; i < scores.length; i++) {
-
-    console.log('your score:', scores[i]);
-
-    if (scores[i] === 100) {
-        console.log('congrats, you got the top score!');
-        break;
-    }
-
+} else {
+    console.log('password is not long enough');
 }
-
-
-// const goals = [60, 763, 762, 81, 14, 8, 37,];
-
-// for (let i = 0; i < goals.length; i++) {
-//     console.log("that's your score:", goals[i])
-// }
