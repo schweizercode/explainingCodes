@@ -407,10 +407,9 @@
 
 //refernece values
 
-const userOne = { name: 'ryu', age: 30 };
-const userTwo = userOne;
+userOne = { name: 'ryu', age: 30 };
+userTwo = userOne;
 
 console.log(userOne, userTwo);
 
-userTwo.age = 40;
-console.log(userOne, userTwo);
+
