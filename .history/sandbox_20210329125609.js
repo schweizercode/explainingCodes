@@ -345,44 +345,31 @@
 
 // console.log(blogs)
 
-// let user = {
-//     name: 'crystal',
-//     age: 30,
-//     email: 'crystal@gmail.com',
-//     location: 'berlin',
-//     blogs: [
-//         { title: 'why mac and cheese rules', likes: 30 },
-//         { title: '10 things to make with marmite', likes: 50 }
-//     ],
-//     login() {
-//         console.log('the user is logged in ')
-//     },
-//     logout: function () {
-//         console.log('the user is logged out');
-//     },
-//     logBlogs: function () {
-//         console.log(this.blogs);
-//         console.log('this user has written the following blogs:')
-//         this.blogs.forEach(blog => {
-//             console.log(blog.title, blog.likes);
-//         });
-//     }
-// };
+let user = {
+    name: 'crystal',
+    age: 30,
+    email: 'crystal@gmail.com',
+    location: 'berlin',
+    blogs: [
+        { title: 'why mac and cheese rules', likes: 30 },
+        { title: '10 things to make with marmite', likes: 50 }
+    ],
+    login() {
+        console.log('the user is logged in ')
+    },
+    logout: function () {
+        console.log('the user is logged out');
+    },
+    logBlogs: function () {
+        console.log(this.blogs);
+        console.log('this user has written the following blogs:')
+        this.blogs.forEach(blog => {
+            console.log(blog.title, blog.likes);
+        });
+    }
+};
 
-// user.logBlogs();
-// console.log(this);
-
-
-// Math object
-
-console.log(Math);
-console.log(Math.PI);
-console.log(Math.E);
-
-const area = 7.7;
-
-console.log(Math.round(area));
-console.log(Math.floor(area));
-console.log(Math.trunc(area));
+user.logBlogs();
+console.log(this);
 
 

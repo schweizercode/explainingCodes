@@ -379,10 +379,10 @@ console.log(Math);
 console.log(Math.PI);
 console.log(Math.E);
 
-const area = 7.7;
+const area = 4.7;
 
 console.log(Math.round(area));
 console.log(Math.floor(area));
-console.log(Math.trunc(area));
+
 
 
