@@ -311,18 +311,20 @@
 
 // callbacks & foreach
 
-// let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+const myFunc = (callbackFunc) => {
+    // do something
+    let value = 50;
+    callbackFunc(value);
+};
 
-// const logPerson = (person, index) => {
-//     console.log(`${index} - hello ${person}`)
-// };
+myFunc(function (value) {
+    //do something
+    console.log(value);
+});
 
-// people.forEach(logPerson);
+myFunc();
 
-// get a refernece to the 'ul'
-const ul - document.querySelector('.people');
 
-const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
 
 

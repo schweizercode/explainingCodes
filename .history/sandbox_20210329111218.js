@@ -311,18 +311,16 @@
 
 // callbacks & foreach
 
-// let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
-// const logPerson = (person, index) => {
-//     console.log(`${index} - hello ${person}`)
-// };
+const logPerson = (person, index) => {
+    console.log(`${index}` - hello ${ person })
+}
 
-// people.forEach(logPerson);
+people.forEach((person, index) => {
+    console.log(index, person);
+});
 
-// get a refernece to the 'ul'
-const ul - document.querySelector('.people');
-
-const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
 
 

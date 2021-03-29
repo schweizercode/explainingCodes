@@ -311,18 +311,12 @@
 
 // callbacks & foreach
 
-// let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
-// const logPerson = (person, index) => {
-//     console.log(`${index} - hello ${person}`)
-// };
+people.forEach(function (krokodile) {
+    console.log(krokodile);
+});
 
-// people.forEach(logPerson);
-
-// get a refernece to the 'ul'
-const ul - document.querySelector('.people');
-
-const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
 
 

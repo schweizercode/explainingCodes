@@ -294,35 +294,18 @@
 
 // console.log(bill([10, 15, 30], 0.2));
 
-// const name = 'shaun';
 
-// //functions 
+const name = 'shaun';
 
-// const greet = () => 'hello';
+//functions 
 
-// let resultOne = greet();
-// console.log(resultOne)
+const greet = () => 'hello';
 
-// //methods 
+let resultOne = greet();
+console.log(resultOne)
 
-// let resultTwo = name.toUpperCase();
-// console.log(resultTwo)
+//methods 
 
-
-// callbacks & foreach
-
-// let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
-
-// const logPerson = (person, index) => {
-//     console.log(`${index} - hello ${person}`)
-// };
-
-// people.forEach(logPerson);
-
-// get a refernece to the 'ul'
-const ul - document.querySelector('.people');
-
-const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
-
-
+let resultTwo = name.toUpperCase();
+console.log(resultTwo)
 
