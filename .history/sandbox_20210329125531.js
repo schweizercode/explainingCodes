@@ -364,7 +364,7 @@ let user = {
         console.log(this.blogs);
         console.log('this user has written the following blogs:')
         this.blogs.forEach(blog => {
-            console.log(blog.title, blog.likes);
+            console.log(blog.title, blog.likes)
         });
     }
 };

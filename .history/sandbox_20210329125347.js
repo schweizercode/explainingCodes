@@ -338,10 +338,10 @@
 
 //object literals 
 
-// const blogs = [
-//     { title: 'why mac and cheese rules', likes: 30 },
-//     { title: '10 things to make with marmite', likes: 50 }
-// ];
+const blogs = [
+    { title: 'why mac and cheese rules', likes: 30 },
+    { title: '10 things to make with marmite', likes: 50 }
+];
 
 console.log(blogs)
 
@@ -350,10 +350,7 @@ let user = {
     age: 30,
     email: 'crystal@gmail.com',
     location: 'berlin',
-    blogs: [
-        { title: 'why mac and cheese rules', likes: 30 },
-        { title: '10 things to make with marmite', likes: 50 }
-    ],
+    blogs: ['why mac and cheese rules', '10 things to make with marmite'],
     login() {
         console.log('the user is logged in ')
     },
@@ -364,7 +361,7 @@ let user = {
         console.log(this.blogs);
         console.log('this user has written the following blogs:')
         this.blogs.forEach(blog => {
-            console.log(blog.title, blog.likes);
+            console.log(blog)
         });
     }
 };
