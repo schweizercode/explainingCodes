@@ -320,18 +320,13 @@
 // people.forEach(logPerson);
 
 // get a refernece to the 'ul'
-
 const ul = document.querySelector('.people');
 
-// const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
-// let html = ``;
+let html = ``;
 
-// people.forEach(person => {
-//     //create html template
-//     html += `<li style="color: purple"> ${person}</li>`
-// });
-
-// console.log(html);
-// ul.innerHTML = html;
-
+people.forEach(function (person) {
+    //create html template
+    html += `<li style="color: purple"> ${person}</li>`
+})
