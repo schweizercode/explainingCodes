@@ -418,28 +418,7 @@
 
 // Interacting with a Browsers!!
 
-// const para = document.querySelector('div.error');
+const para = document.querySelector('div.error');
 
-// console.log(para);
-
-// const paras = document.querySelectorAll('p');
-// const errors = document.querySelector('.error');
-
-// console.log(errors);
-
-// get an element by ID 
-
-// const title = document.getElementById('page-title');
-// console.log(title)
-
-// get elements by their class name 
-// const errors = document.getElementsByClassName('.error');
-// console.log(errors);
-// console.log(errors[0]);
-// errors.forEach(error => {
-//     console.log(error);
-// })
-
-
-// get elements by their tag name 
+console.log(para);
 
